@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="agedisplay" type="id" />
+    <item name="weightdisplay" type="id" />
+    <item name="heightdisplay" type="id" />
+</resources>
