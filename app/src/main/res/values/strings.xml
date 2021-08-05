@@ -11,4 +11,90 @@
     <string name="age">Age</string>
     <string name="Height">Height</string>
     <string name="todo">todo</string>
+    <string name="description_txt">BMI takes into account natural variations in body shape, giving a healthy weight range for a particular height.
+
+
+Muscle is much denser than fat, so very muscular people, e.g. heavyweight boxers, weight trainers/athletes, may be a healthy weight even though their BMI is classed as obese.
+
+Your ethnic group can also affect your risk of some health conditions. For example, adults of South Asian origin may have a higher risk of some health problems, such as diabetes, with a BMI of 23, which is usually considered healthy.
+
+        Get advice from your midwife or GP if you\'re concerned about your weight.</string>
+    <string name="lowbmiadvice_txt">Although being lean can often be healthy, being underweight can be a concern if it\'s the result of poor nutrition or if you have other health concerns. So, if you\'re underweight, see your doctor or dietitian for an evaluation.
+
+
+</string>
+    <string name="healthywaystogain_txt">When you\'re underweight, you may feel full faster. Eat five to six smaller meals during the day rather than two or three large meals.</string>
+    <string name="healthywaystogainn_txt"> As part of an overall healthy diet, choose whole-grain breads, pastas and cereals; fruits and vegetables; dairy products; lean protein sources; and nuts and seeds.</string>
+    <string name="healthywaystogainnn_txt">Snack on nuts, peanut butter, cheese, dried fruits and avocados. Have a bedtime snack, such as a peanut butter and jelly sandwich, or a wrap sandwich with avocado, sliced vegetables, and lean meat or cheese.</string>
+    <string name="reducebmi_txt">It\'s very important to take steps to tackle obesity because, as well as causing obvious physical changes, it can lead to a number of serious and potentially life-threatening conditions, such as:</string>
+    <string name="reducebmii_txt">Reducing how many calories you eat will assist in your weight loss, as the calories in foods people eat can quickly add up.
+
+Entering a calorie deficit, where you eat fewer calories than you burn in a day will prevent you consuming excess fat that serves to increase your BMI.</string>
+    <string name="reducebmiii_txt">Adding five servings of fruit and vegetables a day can add nutrition to your diet, which will also serve to fill you up.
+
+Vegetables, especially, are packed with the nutrition our bodies need to feel satisfied and they’re generally low in calories.</string>
+    <string name="reducebmiiii_txt">Processed food should be avoided as part of your diet, with a generally reliable rule being the more processed a choice of food is, the worse it is for your health. Very processed foods tend to include:
+
+-> Highly refined carbohydrate – which sharply raise blood sugar levels
+-> Man made fats
+-> Added glucose, sugar and salt
+-> High levels of preservatives
+-> Very little fibre</string>
+    <string name="reducebmiiiii_txt">Eating lean meat can assist with weight loss as it contains significantly more protein and has less fat and carbohydrate content.
+
+Chicken generally tends to be very lea, with the white of the meat containing less fat than the meat found on the thighs or wings.
+
+Red meats such as beef and pork are also beneficial, with the leanest cuts available containing more beneficial materials such as vitamin B, iron and zinc.</string>
+    <string name="poornutrition_txt">Poor eating habits include under- or over-eating, not having enough of the healthy foods we need each day, or consuming too many types of food and drink, which are low in fibre or high in fat, salt and/or sugar.
+These unhealthy eating habits can affect our nutrient intake, including energy, protein, carbohydrates, essential fatty acids, vitamins and minerals as well as fibre and fluid.</string>
+    <string name="poornu_txt">Poor nutrition can impair our daily health and wellbeing and reduce our ability to lead an enjoyable and active life.
+In the short term, poor nutrition can contribute to stress, tiredness and our capacity to work, and over time, it can contribute to the risk of developing some illnesses and other health problems such as:
+-> Being overweight or obese
+-> Tooth decay
+-> High blood pressure
+->High cholesterol
+-> Heart disease and stroke
+-> Type-2 diabetes
+-> Osteoporosis
+-> Some cancers
+-> Depression
+-> Eating disorders.</string>
+    <string name="poornuu_txt">aim for two serves of fruit and five serves of vegetables each day
+only occasionally eat sugary, fatty or salty food, and then only in small amounts
+drink fresh, clean tap water instead of sugary drinks
+switch over to healthy Mediterranean diet recipes that look and taste good
+plan your meals ahead and shop for healthy ingredients
+enjoy cooking and eating healthy food with family or friends and without distractions such as the television.</string>
+    <string name="befoodsmart_txt">When it comes to our food, we all like it to be cheap, easy and tasty. And that often means ready-made foods, snacks and takeaways.
+    Finding tasty and healthier alternatives is easy. it is often cheaper to make your own! you just need to be a bit food smart. Use our easy MD recipe ideas and tips to boost your health. </string>
+    <string name="sugarsmart_txt">Lots of processed foods and drinks are loaded with the sweet stuff, which you might not realise is in there. Too much sugar can turn to fat in your body, so why not go for lower sugar options?
+    . These food smart meals, are all lower in sugar
+    . you can still enjoy snacks and drinks </string>
+    <string name="cutbackfat_txt">Fats in your diet are pretty much deadly to your health. Saturated fat is the one to watch for as it causes cholestrol and block our arteries and lead to heart disease or stroke. So, if you are the one in charge of your meals you would not include as much fat. All the food recipe ideas on here are lower in fat and just as tasty if not more than any regualr fast foods.</string>
+    <string name="watchthesalt_txt">Many of us enjoy a bit of salt on our food. What we do not realise is that these salts are very harmful to our health. Making your own meals puts you in charge of how much salt goes into your food. All the recipes provided are lower in salt.</string>
+    <string name="waystopreventheart_txt">Choose foods low in saturated fat, trans fat, and sodium. As part of a healthy diet, eat plenty of fruits and vegetables, fiber-rich whole grains, fish (preferably oily fish-at least twice per week), nuts, legumes and seeds and try eating some meals without meat. Select lower fat dairy products and poultry (skinless).</string>
+    <string name="diabetes_txt">
+Choose whole grains and whole grain products over refined grains and other highly processed carbohydrates. ...
+Skip the sugary drinks, and choose water, coffee, or tea instead. ...
+Choose healthy fats. ...
+Limit red meat and avoid processed meat; choose nuts, beans, whole grains, poultry, or fish instead.</string>
+    <string name="cancer_txt">Diets high in non-starchy vegetables, such as broccoli, spinach, and beans, may help protect against stomach and esophageal cancer. Eating oranges, berries, peas, bell peppers, dark leafy greens and other foods high in vitamin C may also protect against esophageal cancer.</string>
+    <string name="hyper_txt">Aim to eat less than 6g (0.2oz) of salt a day, which is about a teaspoonful. Eating a low-fat diet that includes lots of fibre, such as wholegrain rice, bread and pasta, and plenty of fruit and vegetables also helps lower blood pressure. Aim to eat 5 portions of fruit and vegetables every day.</string>
+    <string name="covid_txt">Try to stay at least 2 metres (3 steps) away from people you\'re not meeting with
+wash your hands with soap and water often – do this for at least 20 seconds
+use hand sanitiser gel if soap and water are not available
+wash your hands as soon as you get home
+cover your mouth and nose with a tissue or your sleeve (not your hands) when you cough or sneeze
+put used tissues in the bin immediately and wash your hands afterwards
+wear something that covers your nose and mouth when it’s hard to stay away from people, such as in shops or on public transport
+let fresh air into your home by opening windows, doors and air vents as much as possible
+do not touch your eyes, nose or mouth if your hands are not clean</string>
+    <string name="infections_txt">Wash your hands well. You probably wash your hands after using the bathroom, before preparing or eating food, and after gardening or other dirty tasks. You should also wash up after blowing your nose, coughing, or sneezing; feeding or stroking your pet; or visiting or caring for a sick person. Wet your hands thoroughly. Lather up with soap or cleanser, and rub it into the palms and backs of your hands and your wrists. Be sure to clean your fingertips, under your nails and between your fingers. Rinse under running water. Dry your hands and wrists thoroughly.
+Cover a cough. Cover your mouth and nose with a tissue when you sneeze or cough, then dispose of it. If no tissue is handy, cough or sneeze into your elbow rather than into your hands.
+Wash and bandage all cuts. Any serious cut or animal or human bite should be examined by a doctor.
+Do not pick at healing wounds or blemishes, or squeeze pimples.
+Don\'t share dishes, glasses, or eating utensils.
+Avoid direct contact with napkins, tissues, handkerchiefs, or similar items used by others.</string>
+
+
 </resources>

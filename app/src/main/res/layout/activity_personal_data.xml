@@ -37,20 +37,30 @@
         android:inputType="numberDecimal" />
 
     <EditText
-        android:id="@+id/gender"
+        android:id="@+id/date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/bmi"
         android:textSize="20dp"
         android:inputType="textPersonName"
-        android:hint="Gender" />
+        android:hint="Date" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:textSize="20dp"
+        android:inputType="textPersonName"
+        android:hint="Age" />
+
 
     <Button
         android:id="@+id/Insertbutton"
         android:layout_width="350dp"
         android:layout_height="50dp"
-        android:layout_below="@id/gender"
-        android:layout_marginTop="30dp"
+        android:layout_below="@id/date"
+        android:layout_marginTop="77dp"
         android:text="Insert New Data"
         android:layout_centerHorizontal="true"
         android:textSize="24dp" />

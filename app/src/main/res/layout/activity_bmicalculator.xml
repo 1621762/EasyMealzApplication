@@ -22,6 +22,17 @@
         android:layout_centerInParent="true"
         android:id="@+id/centerverticalline">
 
+        <SeekBar
+            android:id="@+id/seekbarforheight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="19dp"
+            android:progressTint="@color/light_orange"
+            android:thumbTint="@color/yellow">
+
+        </SeekBar>
     </RelativeLayout>
 
 
@@ -165,19 +176,6 @@
             android:layout_marginLeft="25dp"
             android:layout_toRightOf="@id/currenthei" />
 
-
-        <SeekBar
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="20dp"
-            android:layout_marginLeft="10dp"
-            android:progressTint="@color/light_orange"
-            android:thumbTint="@color/yellow"
-            android:layout_marginRight="10dp"
-            android:id="@+id/seekbarforheight">
-
-        </SeekBar>
 
     </RelativeLayout>
 

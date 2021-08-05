@@ -18,7 +18,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase DB) {
-        DB.execSQL("create Table Userdetails (name TEXT primary Key, contact TEXT, dob TEXT)");
+        DB.execSQL("create Table Userdetails (name TEXT primary Key, BMI TEXT, date TEXT, age TEXT)");
 
     }
 
@@ -28,13 +28,14 @@ public class DBHelper extends SQLiteOpenHelper {
 
     }
 
-    public Boolean insertUserdata(String name, String contact, String dob) {
+    public Boolean insertUserdata(String name, String BMI, String date, String age) {
 
         SQLiteDatabase DB = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put("name", name);
-        contentValues.put("contact", contact);
-        contentValues.put("dob", dob);
+        contentValues.put("BMI", BMI);
+        contentValues.put("date", date);
+        contentValues.put("age",age);
         long result = DB.insert("Userdetails", null, contentValues);
         if (result == -1) {
             return false;
@@ -44,12 +45,13 @@ public class DBHelper extends SQLiteOpenHelper {
 
     }
 
-    public Boolean updateUserdata(String name, String contact, String dob) {
+    public Boolean updateUserdata(String name, String BMI, String date, String age) {
 
         SQLiteDatabase DB = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
-        contentValues.put("contact", contact);
-        contentValues.put("dob", dob);
+        contentValues.put("BMI", BMI);
+        contentValues.put("date", date);
+        contentValues.put("age", age);
         Cursor cursor = DB.rawQuery("Select * from Userdetails where name = ? ", new String[]{name});
         if (cursor.getCount() > 0) {
             long result = DB.update("Userdetails", contentValues, "name=?", new String[]{name});

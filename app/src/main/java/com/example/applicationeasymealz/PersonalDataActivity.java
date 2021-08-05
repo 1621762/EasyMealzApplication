@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 public class PersonalDataActivity extends AppCompatActivity {
 
-     EditText name, bmi, gender;
+     EditText name, bmi, date, age;
      Button insert, update, delete, view;
      DBHelper DB;
 
@@ -27,7 +27,8 @@ public class PersonalDataActivity extends AppCompatActivity {
 
         name = findViewById(R.id.name);
         bmi = findViewById(R.id.bmi);
-        gender = findViewById(R.id.gender);
+        date = findViewById(R.id.date);
+        age = findViewById(R.id.age);
 
         insert = findViewById(R.id.Insertbutton);
         update = findViewById(R.id.Updatebutton);
@@ -40,9 +41,10 @@ public class PersonalDataActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String nameTXT = name.getText().toString();
                 String bmiTXT = bmi.getText().toString();
-                String genderTXT = gender.getText().toString();
+                String dateTXT = date.getText().toString();
+                String ageTXT =age.getText().toString();
 
-                Boolean checkinsertdata = DB.insertUserdata(nameTXT, bmiTXT, genderTXT);
+                Boolean checkinsertdata = DB.insertUserdata(nameTXT, bmiTXT, dateTXT, ageTXT);
                 if(checkinsertdata==true)
                     Toast.makeText(PersonalDataActivity.this, "New Entry Inserted", Toast.LENGTH_SHORT).show();
                 else
@@ -57,9 +59,10 @@ public class PersonalDataActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String nameTXT = name.getText().toString();
                 String bmiTXT = bmi.getText().toString();
-                String genderTXT = gender.getText().toString();
+                String dateTXT = date.getText().toString();
+                String ageTXT = age.getText().toString();
 
-                Boolean checkupdatedata = DB.updateUserdata(nameTXT, bmiTXT, genderTXT);
+                Boolean checkupdatedata = DB.updateUserdata(nameTXT, bmiTXT, dateTXT, ageTXT);
                 if(checkupdatedata==true)
                     Toast.makeText(PersonalDataActivity.this, "Entry Updated ", Toast.LENGTH_SHORT).show();
                 else
@@ -95,7 +98,8 @@ public class PersonalDataActivity extends AppCompatActivity {
                 while(res.moveToNext()) {
                     buffer.append("Name :"+res.getString(0)+"\n");
                     buffer.append("BMI :"+res.getString(1)+"\n");
-                    buffer.append("Gender :"+res.getString(2)+"\n\n");
+                    buffer.append("Date :"+res.getString(2)+"\n\n");
+                    buffer.append("Age :"+res.getString(3)+"\n\n\n");
                 }
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(PersonalDataActivity.this);
